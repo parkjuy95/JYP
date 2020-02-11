@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - monster
+  - magic
+  - waypoint
+  - startpoint
+  - skill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - land
+  - char
+  - maintower
+  - magic
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: land
+    uniqueID: 1227504427
+    locked: 0
+  - name: tower
+    uniqueID: 3440959033
+    locked: 0
+  - name: monster
+    uniqueID: 433894121
+    locked: 0
+  - name: magic
+    uniqueID: 2176101169
+    locked: 0
+  - name: panel
+    uniqueID: 3243063049
+    locked: 0
+  - name: button
+    uniqueID: 2563312273
+    locked: 0

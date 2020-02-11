@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c3463e61850bd428cc02659f33fdf1, type: 3}
+  m_Name: moneystill
+  m_EditorClassIdentifier: 
+  skillname: moneystill
+  skillimage: {fileID: 21300000, guid: 59b6b4363e4ec704b99adb9bb9bf69f0, type: 3}
+  skillprefab: {fileID: 1893592474666274762, guid: 76b5c8e6f2b7c414b8cc4ec9a91b749d,
+    type: 3}
+  SkillLevel: 1
+  UpgradeMoney: 500
+  skillinfo: "\uC801 \uCC98\uCE58\uC2DC \uD68D\uB4DD \uACE8\uB4DC\uB7C9 \uC99D\uAC00"

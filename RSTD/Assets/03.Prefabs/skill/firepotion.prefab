@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4812052966321435800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4812052966321435804}
+  - component: {fileID: 4812052966321435805}
+  - component: {fileID: 4812052966321435806}
+  - component: {fileID: 4812052966321435807}
+  m_Layer: 0
+  m_Name: firepotion
+  m_TagString: skill
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4812052966321435804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812052966321435800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4812052966321435805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812052966321435800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dce2114cb469c3419bd109c423136ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill: {fileID: 11400000, guid: 3571228112702dc4487ab820008b23d6, type: 2}
+--- !u!114 &4812052966321435806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812052966321435800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc6e07afc640854ba35e497d9253a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Range: 340
+  Target: {fileID: 0}
+  skill: {fileID: 8833462627556254451, guid: e798a8bf7a86273428287b395a01e3ba, type: 3}
+  cooltime: 3
+  damage: 5
+  firepotionobj: {fileID: 8833462627556254451, guid: 61d06ca48ab4d864bab52c9abe96a00a,
+    type: 3}
+  sori:
+  - {fileID: 8300000, guid: 150333543b640b54b8c4a98c8e7f21ac, type: 3}
+--- !u!68 &4812052966321435807
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812052966321435800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 1
+  m_Points:
+  - {x: 309.3148, y: 25.415781}
+  - {x: 243.44862, y: -88.95267}
+  - {x: 9.148084, y: -159.84285}
+  - {x: -214.93687, y: -110.78652}
+  - {x: -328.9548, y: 19.646147}
+  - {x: -238.91653, y: 140.17633}
+  - {x: -4.084236, y: 204.84038}
+  - {x: 231.82727, y: 152.85423}
+  - {x: 251.34314, y: 124.52026}
+  - {x: 309.6728, y: 26.411734}
